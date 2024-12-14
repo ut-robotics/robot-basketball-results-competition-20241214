@@ -372,10 +372,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 8,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734173544054, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -577,69 +577,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 4,
+    "id": 5,
     "robots": [
-      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
-      {"id": "plus-aura", "name": "+aura"}
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "beat-diesel", "name": "Beat Diesel"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1734173267452, "isValid": true},
-            {"time": 1734173278982, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60108,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 8,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734173250687, "endTime": 1734173310795}]
-      },
-      {
-        "scores": [
-          [{"time": 1734173426750, "isValid": true}],
-          [
-            {"time": 1734173385773, "isValid": true},
-            {"time": 1734173401550, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60044,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734173376831, "endTime": 1734173436875}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1734173544054, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "plus-aura", "name": "+aura"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.33, 0.14],
-      [-0.33, -0.14],
-      [-0.51, 0.49],
-      [0.51, -0.49],
-      [1.99, -1.38],
-      [-1.99, 1.38],
-      [-1.72, -0.34],
-      [1.72, 0.34],
-      [0.82, 0.24],
-      [-0.82, -0.24]
+      [1.09, -0.19],
+      [-1.09, 0.19],
+      [0.59, -1.37],
+      [-0.59, 1.37],
+      [-0.6, -1.17],
+      [0.6, 1.17],
+      [1.4, 0.97],
+      [-1.4, -0.97],
+      [-0.74, -0.74],
+      [0.74, 0.74]
     ]
   }
 }

@@ -2274,10 +2274,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 6,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734187962621, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -2442,112 +2442,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 26,
-    "robots": [{"id": "k4", "name": "K4"}, {"id": "mait", "name": "Mait"}],
+    "id": 27,
+    "robots": [
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "pelta-x", "name": "Pelta X"}
+    ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734187523925, "isValid": true},
-            {"time": 1734187526516, "isValid": true},
-            {"time": 1734187531552, "isValid": true},
-            {"time": 1734187545147, "isValid": true}
-          ],
-          [
-            {"time": 1734187524746, "isValid": true},
-            {"time": 1734187531331, "isValid": true},
-            {"time": 1734187548886, "isValid": true},
-            {"time": 1734187556008, "isValid": true}
-          ]
-        ],
-        "fouls": [
-          [{"time": 1734187568045}, {"time": 1734187627383}],
-          [{"time": 1734187593771}, {"time": 1734187656249}]
-        ],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 53248,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1734187516445, "endTime": 1734187558957},
-          {"startTime": 1734187581389, "endTime": 1734187584525},
-          {"startTime": 1734187611533, "endTime": 1734187616813},
-          {"startTime": 1734187649749, "endTime": 1734187652069}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734187719051, "isValid": true},
-            {"time": 1734187726256, "isValid": true},
-            {"time": 1734187732180, "isValid": true},
-            {"time": 1734187737856, "isValid": true},
-            {"time": 1734187743599, "isValid": true}
-          ],
-          [
-            {"time": 1734187716598, "isValid": true},
-            {"time": 1734187730693, "isValid": true},
-            {"time": 1734187737578, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 55904,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1734187709413, "endTime": 1734187765317}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734187834719, "isValid": true},
-            {"time": 1734187847879, "isValid": true},
-            {"time": 1734187854525, "isValid": true},
-            {"time": 1734187866750, "isValid": true}
-          ],
-          [
-            {"time": 1734187835645, "isValid": true},
-            {"time": 1734187840892, "isValid": true},
-            {"time": 1734187855179, "isValid": true},
-            {"time": 1734187862406, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 42200,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 7,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1734187826613, "endTime": 1734187868813}]
+        "runs": [{"startTime": 1734187962621, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "k4", "name": "K4"},
-      "roundWinCount": 1,
-      "roundLossCount": 0,
-      "roundTieCount": 2
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.6, 1.08],
-      [-0.6, -1.08],
-      [-0.35, 0.64],
-      [0.35, -0.64],
-      [0.09, -0.8],
-      [-0.09, 0.8],
-      [1.99, -0.54],
-      [-1.99, 0.54],
-      [-1.88, -0.44],
-      [1.88, 0.44]
+      [0.71, 0.41],
+      [-0.71, -0.41],
+      [1.97, -1.38],
+      [-1.97, 1.38],
+      [-1.36, -0.5],
+      [1.36, 0.5],
+      [0.94, 0.06],
+      [-0.94, -0.06],
+      [1.71, 0.39],
+      [-1.71, -0.39]
     ]
   }
 }

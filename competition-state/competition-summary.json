@@ -2571,14 +2571,14 @@
         "rounds": [
           {
             "scores": [[], []],
-            "fouls": [[], []],
+            "fouls": [[{"time": 1734188747549}], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4128,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734188734029, "endTime": 1734188738157}]
           }
         ],
         "status": {"result": "unknown"},
@@ -2613,81 +2613,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 28,
+    "id": 1001,
     "robots": [
       {"id": "oopsie", "name": "Oopsie"},
-      {"id": "beat-diesel", "name": "Beat Diesel"}
+      {"id": "pelta-x", "name": "Pelta X"}
     ],
     "startingBaskets": ["blue", "magenta"],
-    "isTieAllowed": true,
-    "hasEnded": true,
+    "isTieAllowed": false,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734188418233, "isValid": true},
-            {"time": 1734188436388, "isValid": true},
-            {"time": 1734188442239, "isValid": true}
-          ],
-          [
-            {"time": 1734188420434, "isValid": true},
-            {"time": 1734188425184, "isValid": true},
-            {"time": 1734188433328, "isValid": true},
-            {"time": 1734188442007, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
+        "scores": [[], []],
+        "fouls": [[{"time": 1734188747549}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60027,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4128,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734188403837, "endTime": 1734188463864}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734188545039, "isValid": true},
-            {"time": 1734188566357, "isValid": true}
-          ],
-          [
-            {"time": 1734188549891, "isValid": true},
-            {"time": 1734188557514, "isValid": true},
-            {"time": 1734188565151, "isValid": true},
-            {"time": 1734188570739, "isValid": true},
-            {"time": 1734188577637, "isValid": false}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 48104,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734188530845, "endTime": 1734188578949}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1734188734029, "endTime": 1734188738157}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "beat-diesel", "name": "Beat Diesel"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.25, 1.43],
-      [0.25, -1.43],
-      [-1.88, 0.47],
-      [1.88, -0.47],
-      [1.75, 0.48],
-      [-1.75, -0.48],
-      [1.73, -1.44],
-      [-1.73, 1.44],
-      [0.75, -0.74],
-      [-0.75, 0.74]
+      [0.13, -1.39],
+      [-0.13, 1.39],
+      [-0.7, 0.78],
+      [0.7, -0.78],
+      [2.17, 0.72],
+      [-2.17, -0.72],
+      [-1.79, -0.59],
+      [1.79, 0.59],
+      [1.2, -0.23],
+      [-1.2, 0.23]
     ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": 26,
+  "robots": [{"id": "k4", "name": "K4"}, {"id": "mait", "name": "Mait"}],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.6, 1.08],
+    [-0.6, -1.08],
+    [-0.35, 0.64],
+    [0.35, -0.64],
+    [0.09, -0.8],
+    [-0.09, 0.8],
+    [1.99, -0.54],
+    [-1.99, 0.54],
+    [-1.88, -0.44],
+    [1.88, 0.44]
+  ]
+}

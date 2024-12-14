@@ -1,0 +1,34 @@
+{
+  "id": 27,
+  "robots": [
+    {"id": "plus-aura", "name": "+aura"},
+    {"id": "pelta-x", "name": "Pelta X"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.71, 0.41],
+    [-0.71, -0.41],
+    [1.97, -1.38],
+    [-1.97, 1.38],
+    [-1.36, -0.5],
+    [1.36, 0.5],
+    [0.94, 0.06],
+    [-0.94, -0.06],
+    [1.71, 0.39],
+    [-1.71, -0.39]
+  ]
+}

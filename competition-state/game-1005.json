@@ -30,12 +30,16 @@
     },
     {
       "scores": [
-        [{"time": 1734190805391, "isValid": true}],
+        [
+          {"time": 1734190805391, "isValid": true},
+          {"time": 1734190837231, "isValid": true}
+        ],
         [
           {"time": 1734190805942, "isValid": true},
           {"time": 1734190811494, "isValid": true},
           {"time": 1734190818951, "isValid": true},
-          {"time": 1734190824389, "isValid": true}
+          {"time": 1734190824389, "isValid": true},
+          {"time": 1734190837683, "isValid": true}
         ]
       ],
       "fouls": [[], []],

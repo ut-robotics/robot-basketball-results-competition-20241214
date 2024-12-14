@@ -1164,7 +1164,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1210,17 +1210,23 @@
             "fouls": [[], [{"time": 1734179877039}]],
             "baskets": ["magenta", "blue"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 60038,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1734179831255, "endTime": 1734179871078},
               {"startTime": 1734179908742, "endTime": 1734179928957}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "oopsie", "name": "Oopsie"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-0.21, 0.28],
@@ -1234,39 +1240,313 @@
           [-1.26, -0.13],
           [1.26, 0.13]
         ]
+      },
+      {
+        "id": 15,
+        "robots": [
+          {"id": "harm", "name": "HARM"},
+          {"id": "brobot", "name": "Brobot"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.72, -0.9],
+          [1.72, 0.9],
+          [0.15, 0.78],
+          [-0.15, -0.78],
+          [0.08, -0.82],
+          [-0.08, 0.82],
+          [-1.78, -0.37],
+          [1.78, 0.37],
+          [1.33, -0.89],
+          [-1.33, 0.89]
+        ]
+      },
+      {
+        "id": 16,
+        "robots": [
+          {"id": "wineeurope", "name": "WineEurope"},
+          {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.03, 1.33],
+          [0.03, -1.33],
+          [1.78, 0.28],
+          [-1.78, -0.28],
+          [1.1, -0.05],
+          [-1.1, 0.05],
+          [0.76, 0.48],
+          [-0.76, -0.48],
+          [-0.16, 0.19],
+          [0.16, -0.19]
+        ]
+      },
+      {
+        "id": 17,
+        "robots": [
+          {"id": "mait", "name": "Mait"},
+          {"id": "warcrime", "name": "Warcrime"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.24, -0.57],
+          [0.24, 0.57],
+          [-0.22, 0.14],
+          [0.22, -0.14],
+          [-1.47, -1.19],
+          [1.47, 1.19],
+          [0.82, -0.22],
+          [-0.82, 0.22],
+          [-0.57, 1.41],
+          [0.57, -1.41]
+        ]
+      },
+      {
+        "id": 18,
+        "robots": [
+          {"id": "pelta-x", "name": "Pelta X"},
+          {
+            "id": "sometimes-lose-always-win",
+            "name": "Sometimes Lose Always Win"
+          }
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.75, -0.57],
+          [1.75, 0.57],
+          [0.96, 1.38],
+          [-0.96, -1.38],
+          [-1.3, -1.17],
+          [1.3, 1.17],
+          [-0.78, -0.08],
+          [0.78, 0.08],
+          [0.32, 0.41],
+          [-0.32, -0.41]
+        ]
+      },
+      {
+        "id": 19,
+        "robots": [
+          {"id": "beat-diesel", "name": "Beat Diesel"},
+          {"id": "roboorikud", "name": "SLAM DUCK"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.25, 0.34],
+          [1.25, -0.34],
+          [-1.23, -0.65],
+          [1.23, 0.65],
+          [-0.45, -0.81],
+          [0.45, 0.81],
+          [0.83, -0.54],
+          [-0.83, 0.54],
+          [-0.68, 1.35],
+          [0.68, -1.35]
+        ]
+      },
+      {
+        "id": 20,
+        "robots": [
+          {"id": "plus-aura", "name": "+aura"},
+          {"id": "marvin", "name": "Marvin"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.88, 0.75],
+          [1.88, -0.75],
+          [0.75, 0.23],
+          [-0.75, -0.23],
+          [1.59, 1.03],
+          [-1.59, -1.03],
+          [-0.13, 1.28],
+          [0.13, -1.28],
+          [0.71, 0.97],
+          [-0.71, -0.97]
+        ]
+      },
+      {
+        "id": 21,
+        "robots": [
+          {"id": "oopsie", "name": "Oopsie"},
+          {"id": "k4", "name": "K4"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.34, -1.04],
+          [1.34, 1.04],
+          [1.09, 1.17],
+          [-1.09, -1.17],
+          [0.13, 0.17],
+          [-0.13, -0.17],
+          [0.44, -0.94],
+          [-0.44, 0.94],
+          [1.13, 0.3],
+          [-1.13, -0.3]
+        ]
       }
     ],
     "byes": [],
     "robotScores": [
       {
+        "robot": {"id": "oopsie", "name": "Oopsie"},
+        "score": 2,
+        "tieBreakScore": 1.8,
+        "rank": 1
+      },
+      {
         "robot": {"id": "k4", "name": "K4"},
         "score": 1.7000000000000002,
         "tieBreakScore": 1.4,
-        "rank": 1
+        "rank": 2
       },
       {
         "robot": {"id": "plus-aura", "name": "+aura"},
         "score": 1.5,
         "tieBreakScore": 2.5,
-        "rank": 2
+        "rank": 3
       },
       {
         "robot": {"id": "beat-diesel", "name": "Beat Diesel"},
         "score": 1.5,
         "tieBreakScore": 2.2,
-        "rank": 3
+        "rank": 4
       },
       {
         "robot": {"id": "marvin", "name": "Marvin"},
         "score": 1.4,
         "tieBreakScore": 0.8999999999999999,
-        "rank": 4
+        "rank": 5
       },
       {
         "robot": {"id": "roboorikud", "name": "SLAM DUCK"},
         "score": 1.2,
         "tieBreakScore": 2,
-        "rank": 5
+        "rank": 6
+      },
+      {
+        "robot": {"id": "pelta-x", "name": "Pelta X"},
+        "score": 1,
+        "tieBreakScore": 2,
+        "rank": 7
       },
       {
         "robot": {
@@ -1275,24 +1555,12 @@
         },
         "score": 1,
         "tieBreakScore": 1.5,
-        "rank": 6
-      },
-      {
-        "robot": {"id": "oopsie", "name": "Oopsie"},
-        "score": 1,
-        "tieBreakScore": 0.8,
-        "rank": 7
-      },
-      {
-        "robot": {"id": "pelta-x", "name": "Pelta X"},
-        "score": 1,
-        "tieBreakScore": 0,
         "rank": 8
       },
       {
         "robot": {"id": "mait", "name": "Mait"},
         "score": 0.8,
-        "tieBreakScore": 1.7,
+        "tieBreakScore": 2.7,
         "rank": 9
       },
       {
@@ -1327,20 +1595,20 @@
       }
     ],
     "robotStartingBaskets": {
-      "oopsie": ["magenta", "blue"],
-      "mait": ["blue", "blue"],
-      "k4": ["magenta", "blue"],
-      "harm": ["blue", "magenta"],
-      "brobot": ["magenta", "blue"],
-      "pelta-x": ["blue", "magenta"],
-      "sometimes-lose-always-win": ["blue", "magenta"],
-      "plus-aura": ["magenta", "blue"],
-      "warcrime": ["blue", "magenta"],
-      "beat-diesel": ["magenta", "magenta"],
-      "marvin": ["magenta", "blue"],
-      "wineeurope": ["blue", "magenta"],
-      "lebrobot-james": ["magenta", "blue"],
-      "roboorikud": ["blue", "magenta"]
+      "oopsie": ["magenta", "blue", "magenta"],
+      "mait": ["blue", "blue", "magenta"],
+      "k4": ["magenta", "blue", "blue"],
+      "harm": ["blue", "magenta", "blue"],
+      "brobot": ["magenta", "blue", "magenta"],
+      "pelta-x": ["blue", "magenta", "magenta"],
+      "sometimes-lose-always-win": ["blue", "magenta", "blue"],
+      "plus-aura": ["magenta", "blue", "blue"],
+      "warcrime": ["blue", "magenta", "blue"],
+      "beat-diesel": ["magenta", "magenta", "blue"],
+      "marvin": ["magenta", "blue", "magenta"],
+      "wineeurope": ["blue", "magenta", "blue"],
+      "lebrobot-james": ["magenta", "blue", "magenta"],
+      "roboorikud": ["blue", "magenta", "magenta"]
     },
     "hasEnded": false
   },
@@ -1352,7 +1620,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -1398,17 +1666,23 @@
         "fouls": [[], [{"time": 1734179877039}]],
         "baskets": ["magenta", "blue"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 60038,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1734179831255, "endTime": 1734179871078},
           {"startTime": 1734179908742, "endTime": 1734179928957}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "oopsie", "name": "Oopsie"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [-0.21, 0.28],

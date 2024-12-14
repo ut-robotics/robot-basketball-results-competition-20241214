@@ -2398,15 +2398,27 @@
             "runs": [{"startTime": 1734188403837, "endTime": 1734188463864}]
           },
           {
-            "scores": [[], []],
+            "scores": [
+              [
+                {"time": 1734188545039, "isValid": true},
+                {"time": 1734188566357, "isValid": true}
+              ],
+              [
+                {"time": 1734188549891, "isValid": true},
+                {"time": 1734188557514, "isValid": true},
+                {"time": 1734188565151, "isValid": true},
+                {"time": 1734188570739, "isValid": true},
+                {"time": 1734188577637, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 8,
+            "duration": 48104,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1734188530845, "endTime": null}]
+            "runs": [{"startTime": 1734188530845, "endTime": 1734188578949}]
           }
         ],
         "status": {"result": "unknown"},
@@ -2567,15 +2579,27 @@
         "runs": [{"startTime": 1734188403837, "endTime": 1734188463864}]
       },
       {
-        "scores": [[], []],
+        "scores": [
+          [
+            {"time": 1734188545039, "isValid": true},
+            {"time": 1734188566357, "isValid": true}
+          ],
+          [
+            {"time": 1734188549891, "isValid": true},
+            {"time": 1734188557514, "isValid": true},
+            {"time": 1734188565151, "isValid": true},
+            {"time": 1734188570739, "isValid": true},
+            {"time": 1734188577637, "isValid": true}
+          ]
+        ],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 9,
+        "duration": 48104,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1734188530845, "endTime": null}]
+        "runs": [{"startTime": 1734188530845, "endTime": 1734188578949}]
       }
     ],
     "status": {"result": "unknown"},

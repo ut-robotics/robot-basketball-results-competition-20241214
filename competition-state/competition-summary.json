@@ -1907,7 +1907,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1931,24 +1931,34 @@
               [
                 {"time": 1734186415208, "isValid": true},
                 {"time": 1734186460487, "isValid": true},
-                {"time": 1734186466994, "isValid": true}
+                {"time": 1734186466994, "isValid": true},
+                {"time": 1734186481330, "isValid": true}
               ],
               []
             ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 40633,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60093,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1734186392837, "endTime": 1734186414549},
-              {"startTime": 1734186448077, "endTime": null}
+              {"startTime": 1734186448077, "endTime": 1734186486458}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {
+            "id": "sometimes-lose-always-win",
+            "name": "Sometimes Lose Always Win"
+          },
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [0.51, 0.54],
@@ -2163,76 +2173,76 @@
       {
         "robot": {"id": "plus-aura", "name": "+aura"},
         "score": 2.3,
-        "tieBreakScore": 5.1,
+        "tieBreakScore": 6.1,
         "rank": 3
-      },
-      {
-        "robot": {"id": "pelta-x", "name": "Pelta X"},
-        "score": 2,
-        "tieBreakScore": 3.9,
-        "rank": 4
-      },
-      {
-        "robot": {"id": "k4", "name": "K4"},
-        "score": 1.8000000000000003,
-        "tieBreakScore": 5.3,
-        "rank": 5
-      },
-      {
-        "robot": {"id": "mait", "name": "Mait"},
-        "score": 1.8,
-        "tieBreakScore": 5,
-        "rank": 6
-      },
-      {
-        "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-        "score": 1.6,
-        "tieBreakScore": 3.3,
-        "rank": 7
-      },
-      {
-        "robot": {"id": "marvin", "name": "Marvin"},
-        "score": 1.5999999999999999,
-        "tieBreakScore": 4.8999999999999995,
-        "rank": 8
-      },
-      {
-        "robot": {"id": "wineeurope", "name": "WineEurope"},
-        "score": 1.4,
-        "tieBreakScore": 5,
-        "rank": 9
-      },
-      {
-        "robot": {"id": "roboorikud", "name": "SLAM DUCK"},
-        "score": 1.2,
-        "tieBreakScore": 5.9,
-        "rank": 10
-      },
-      {
-        "robot": {"id": "harm", "name": "HARM"},
-        "score": 1.2,
-        "tieBreakScore": 3.4000000000000004,
-        "rank": 11
       },
       {
         "robot": {
           "id": "sometimes-lose-always-win",
           "name": "Sometimes Lose Always Win"
         },
-        "score": 1,
-        "tieBreakScore": 4.3,
+        "score": 2,
+        "tieBreakScore": 5,
+        "rank": 4
+      },
+      {
+        "robot": {"id": "pelta-x", "name": "Pelta X"},
+        "score": 2,
+        "tieBreakScore": 4.9,
+        "rank": 5
+      },
+      {
+        "robot": {"id": "k4", "name": "K4"},
+        "score": 1.8000000000000003,
+        "tieBreakScore": 5.3,
+        "rank": 6
+      },
+      {
+        "robot": {"id": "mait", "name": "Mait"},
+        "score": 1.8,
+        "tieBreakScore": 5,
+        "rank": 7
+      },
+      {
+        "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+        "score": 1.6,
+        "tieBreakScore": 3.3,
+        "rank": 8
+      },
+      {
+        "robot": {"id": "marvin", "name": "Marvin"},
+        "score": 1.5999999999999999,
+        "tieBreakScore": 4.8999999999999995,
+        "rank": 9
+      },
+      {
+        "robot": {"id": "wineeurope", "name": "WineEurope"},
+        "score": 1.4,
+        "tieBreakScore": 5,
+        "rank": 10
+      },
+      {
+        "robot": {"id": "roboorikud", "name": "SLAM DUCK"},
+        "score": 1.2,
+        "tieBreakScore": 5.9,
+        "rank": 11
+      },
+      {
+        "robot": {"id": "harm", "name": "HARM"},
+        "score": 1.2,
+        "tieBreakScore": 3.4000000000000004,
         "rank": 12
       },
       {
         "robot": {"id": "warcrime", "name": "Warcrime"},
         "score": 0.7,
-        "tieBreakScore": 5.8999999999999995,
+        "tieBreakScore": 7.8999999999999995,
         "rank": 13
       },
       {
         "robot": {"id": "brobot", "name": "Brobot"},
         "score": 0,
-        "tieBreakScore": 5.800000000000001,
+        "tieBreakScore": 6.800000000000001,
         "rank": 14
       }
     ],
@@ -2262,7 +2272,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -2286,24 +2296,34 @@
           [
             {"time": 1734186415208, "isValid": true},
             {"time": 1734186460487, "isValid": true},
-            {"time": 1734186466994, "isValid": true}
+            {"time": 1734186466994, "isValid": true},
+            {"time": 1734186481330, "isValid": true}
           ],
           []
         ],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 40634,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60093,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1734186392837, "endTime": 1734186414549},
-          {"startTime": 1734186448077, "endTime": null}
+          {"startTime": 1734186448077, "endTime": 1734186486458}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {
+        "id": "sometimes-lose-always-win",
+        "name": "Sometimes Lose Always Win"
+      },
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [0.51, 0.54],

@@ -2688,7 +2688,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -2759,14 +2759,20 @@
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 60015,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [{"startTime": 1734189612957, "endTime": 1734189672972}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "beat-diesel", "name": "Beat Diesel"},
+          "roundWinCount": 1,
+          "roundLossCount": 0,
+          "roundTieCount": 2
+        },
         "ballPlacement": [
           [0, 0],
           [1.76, -0.96],
@@ -2780,16 +2786,63 @@
           [-1.98, -0.62],
           [1.98, 0.62]
         ]
+      },
+      {
+        "id": 1003,
+        "robots": [
+          {"id": "pelta-x", "name": "Pelta X"},
+          {"id": "beat-diesel", "name": "Beat Diesel"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.28, 0.4],
+          [0.28, -0.4],
+          [0.5, -0.3],
+          [-0.5, 0.3],
+          [-0.46, 0.78],
+          [0.46, -0.78],
+          [1.75, -1.02],
+          [-1.75, 1.02],
+          [1.98, -0.66],
+          [-1.98, 0.66]
+        ]
       }
     ],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss"},
-    "noLossQueue": [{"id": "pelta-x", "name": "Pelta X"}],
-    "oneLossQueue": [{"id": "oopsie", "name": "Oopsie"}],
+    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
+    "noLossQueue": [],
+    "oneLossQueue": [
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "marvin", "name": "Marvin"}
+    ],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
       "oopsie": ["magenta", "blue", "magenta", "blue", "blue"],
-      "pelta-x": ["blue", "magenta", "magenta", "blue", "magenta"],
-      "beat-diesel": ["magenta", "magenta", "blue", "magenta", "blue"],
+      "pelta-x": ["blue", "magenta", "magenta", "blue", "magenta", "blue"],
+      "beat-diesel": [
+        "magenta",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta"
+      ],
       "marvin": ["magenta", "blue", "magenta", "magenta", "magenta"]
     },
     "hasEnded": false
@@ -2802,7 +2855,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -2873,14 +2926,20 @@
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 60015,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [{"startTime": 1734189612957, "endTime": 1734189672972}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "beat-diesel", "name": "Beat Diesel"},
+      "roundWinCount": 1,
+      "roundLossCount": 0,
+      "roundTieCount": 2
+    },
     "ballPlacement": [
       [0, 0],
       [1.76, -0.96],

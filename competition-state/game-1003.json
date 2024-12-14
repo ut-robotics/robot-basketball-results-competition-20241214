@@ -10,11 +10,15 @@
   "rounds": [
     {
       "scores": [
-        [{"time": 1734189794388, "isValid": true}],
+        [
+          {"time": 1734189794388, "isValid": true},
+          {"time": 1734189826234, "isValid": true}
+        ],
         [
           {"time": 1734189786682, "isValid": true},
           {"time": 1734189790682, "isValid": true},
-          {"time": 1734189811786, "isValid": true}
+          {"time": 1734189811786, "isValid": true},
+          {"time": 1734189822124, "isValid": true}
         ]
       ],
       "fouls": [[], []],

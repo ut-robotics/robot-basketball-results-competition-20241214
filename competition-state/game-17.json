@@ -30,7 +30,10 @@
       "scores": [
         [
           {"time": 1734180902764, "isValid": true},
-          {"time": 1734180909098, "isValid": false}
+          {"time": 1734180909098, "isValid": false},
+          {"time": 1734181110582, "isValid": true},
+          {"time": 1734181118074, "isValid": true},
+          {"time": 1734181125713, "isValid": true}
         ],
         [{"time": 1734180902401, "isValid": true}]
       ],

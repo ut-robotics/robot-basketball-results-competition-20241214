@@ -19,7 +19,7 @@
   ],
   "tournament": {
     "swissEnabled": true,
-    "numberOfSwissRounds": 5,
+    "numberOfSwissRounds": 4,
     "doubleEliminationEnabled": true
   },
   "swissSystemTournament": {
@@ -39,7 +39,7 @@
       {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
       {"id": "roboorikud", "name": "SLAM DUCK"}
     ],
-    "roundCount": 5,
+    "roundCount": 4,
     "gameIDs": [
       1,
       2,

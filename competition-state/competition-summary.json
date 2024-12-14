@@ -19,7 +19,7 @@
   ],
   "tournament": {
     "swissEnabled": true,
-    "numberOfSwissRounds": 5,
+    "numberOfSwissRounds": 4,
     "doubleEliminationEnabled": true
   },
   "swissSystemTournament": {
@@ -39,7 +39,7 @@
       {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
       {"id": "roboorikud", "name": "SLAM DUCK"}
     ],
-    "roundCount": 5,
+    "roundCount": 4,
     "games": [
       {
         "id": 1,
@@ -1847,10 +1847,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 16,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734185895517, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -2200,105 +2200,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 21,
-    "robots": [{"id": "oopsie", "name": "Oopsie"}, {"id": "k4", "name": "K4"}],
+    "id": 22,
+    "robots": [
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+      {"id": "brobot", "name": "Brobot"}
+    ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734182373006, "isValid": true},
-            {"time": 1734182377589, "isValid": true},
-            {"time": 1734182380279, "isValid": true},
-            {"time": 1734182390404, "isValid": true},
-            {"time": 1734182398808, "isValid": false}
-          ],
-          [
-            {"time": 1734182369616, "isValid": true},
-            {"time": 1734182373466, "isValid": true},
-            {"time": 1734182387981, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60087,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1734182362909, "endTime": 1734182422996}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734182492244, "isValid": true},
-            {"time": 1734182496671, "isValid": true},
-            {"time": 1734182505905, "isValid": true},
-            {"time": 1734182513003, "isValid": true}
-          ],
-          [
-            {"time": 1734182498362, "isValid": true},
-            {"time": 1734182507864, "isValid": true},
-            {"time": 1734182511049, "isValid": true},
-            {"time": 1734182524975, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 48025,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 16,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1734182485405, "endTime": 1734182533430}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734182665515, "isValid": true},
-            {"time": 1734182670414, "isValid": true},
-            {"time": 1734182674281, "isValid": true},
-            {"time": 1734182677540, "isValid": true},
-            {"time": 1734182687248, "isValid": true},
-            {"time": 1734182695349, "isValid": true}
-          ],
-          [
-            {"time": 1734182666565, "isValid": true},
-            {"time": 1734182671288, "isValid": true},
-            {"time": 1734182678057, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 42400,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1734182654558, "endTime": 1734182696958}]
+        "runs": [{"startTime": 1734185895517, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "oopsie", "name": "Oopsie"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.34, -1.04],
-      [1.34, 1.04],
-      [1.09, 1.17],
-      [-1.09, -1.17],
-      [0.13, 0.17],
-      [-0.13, -0.17],
-      [0.44, -0.94],
-      [-0.44, 0.94],
-      [1.13, 0.3],
-      [-1.13, -0.3]
+      [1.2, -0.15],
+      [-1.2, 0.15],
+      [0.18, -1.02],
+      [-0.18, 1.02],
+      [1.36, 0.4],
+      [-1.36, -0.4],
+      [0.9, 1.19],
+      [-0.9, -1.19],
+      [-1.13, 0.66],
+      [1.13, -0.66]
     ]
   }
 }

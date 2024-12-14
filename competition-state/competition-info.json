@@ -107,10 +107,11 @@
       "1007": "secondFinal"
     },
     "noLossQueue": [],
-    "oneLossQueue": [],
+    "oneLossQueue": [{"id": "pelta-x", "name": "Pelta X"}],
     "eliminatedRobots": [
       {"id": "marvin", "name": "Marvin"},
-      {"id": "oopsie", "name": "Oopsie"}
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "beat-diesel", "name": "Beat Diesel"}
     ],
     "robotStartingBaskets": {
       "oopsie": [
@@ -145,6 +146,6 @@
       ],
       "marvin": ["magenta", "blue", "magenta", "magenta", "magenta", "blue"]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }

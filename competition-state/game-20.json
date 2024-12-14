@@ -33,7 +33,10 @@
     },
     {
       "scores": [
-        [{"time": 1734182091075, "isValid": true}],
+        [
+          {"time": 1734182091075, "isValid": true},
+          {"time": 1734182107862, "isValid": true}
+        ],
         [{"time": 1734182088069, "isValid": true}]
       ],
       "fouls": [[], []],

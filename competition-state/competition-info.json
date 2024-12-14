@@ -96,16 +96,18 @@
       {"id": "beat-diesel", "name": "Beat Diesel"},
       {"id": "marvin", "name": "Marvin"}
     ],
-    "gameIDs": [1001, 1002, 1003],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
-    "noLossQueue": [],
-    "oneLossQueue": [
-      {"id": "oopsie", "name": "Oopsie"},
-      {"id": "marvin", "name": "Marvin"}
-    ],
+    "gameIDs": [1001, 1002, 1003, 1004],
+    "gameTypes": {
+      "1001": "noLoss",
+      "1002": "noLoss",
+      "1003": "noLoss",
+      "1004": "oneLoss"
+    },
+    "noLossQueue": [{"id": "beat-diesel", "name": "Beat Diesel"}],
+    "oneLossQueue": [{"id": "pelta-x", "name": "Pelta X"}],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
-      "oopsie": ["magenta", "blue", "magenta", "blue", "blue"],
+      "oopsie": ["magenta", "blue", "magenta", "blue", "blue", "magenta"],
       "pelta-x": ["blue", "magenta", "magenta", "blue", "magenta", "blue"],
       "beat-diesel": [
         "magenta",
@@ -115,7 +117,7 @@
         "blue",
         "magenta"
       ],
-      "marvin": ["magenta", "blue", "magenta", "magenta", "magenta"]
+      "marvin": ["magenta", "blue", "magenta", "magenta", "magenta", "blue"]
     },
     "hasEnded": false
   }

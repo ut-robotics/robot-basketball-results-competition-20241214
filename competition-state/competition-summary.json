@@ -1071,10 +1071,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 11,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734179273534, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1239,102 +1239,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 12,
+    "id": 13,
     "robots": [
-      {"id": "roboorikud", "name": "SLAM DUCK"},
-      {"id": "k4", "name": "K4"}
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "beat-diesel", "name": "Beat Diesel"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734178897586, "isValid": true},
-            {"time": 1734178903979, "isValid": true},
-            {"time": 1734178917043, "isValid": true},
-            {"time": 1734178931066, "isValid": true},
-            {"time": 1734178939618, "isValid": false}
-          ],
-          [
-            {"time": 1734178891983, "isValid": true},
-            {"time": 1734178899783, "isValid": true},
-            {"time": 1734178919147, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60017,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1734178881344, "endTime": 1734178941361}]
-      },
-      {
-        "scores": [
-          [{"time": 1734179033784, "isValid": true}],
-          [
-            {"time": 1734179020321, "isValid": true},
-            {"time": 1734179023490, "isValid": true},
-            {"time": 1734179026521, "isValid": true},
-            {"time": 1734179042158, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 51802,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 11,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734179000397, "endTime": 1734179052199}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1734179155790, "isValid": true},
-            {"time": 1734179175929, "isValid": true},
-            {"time": 1734179186232, "isValid": true}
-          ],
-          [
-            {"time": 1734179132867, "isValid": true},
-            {"time": 1734179135356, "isValid": true},
-            {"time": 1734179150344, "isValid": true},
-            {"time": 1734179156676, "isValid": true},
-            {"time": 1734179172294, "isValid": false}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60093,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1734179125542, "endTime": 1734179185635}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1734179273534, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "k4", "name": "K4"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-2.08, 0.56],
-      [2.08, -0.56],
-      [-0.77, 1.23],
-      [0.77, -1.23],
-      [0.62, 0.11],
-      [-0.62, -0.11],
-      [1.93, 0.41],
-      [-1.93, -0.41],
-      [1.61, -0.51],
-      [-1.61, 0.51]
+      [0.77, -0.29],
+      [-0.77, 0.29],
+      [-1.29, 0.27],
+      [1.29, -0.27],
+      [-1.26, -0.07],
+      [1.26, 0.07],
+      [1.46, 0.44],
+      [-1.46, -0.44],
+      [0.51, -1.14],
+      [-0.51, 1.14]
     ]
   }
 }

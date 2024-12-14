@@ -1,6 +1,63 @@
 {
   "id": "robot-basketball-competition-20241214",
   "name": "Robot Basketball Competition 2024-12-14",
-  "robots": [],
-  "tournament": null
+  "robots": [
+    {"id": "plus-aura", "name": "+aura"},
+    {"id": "beat-diesel", "name": "Beat Diesel"},
+    {"id": "brobot", "name": "Brobot"},
+    {"id": "harm", "name": "HARM"},
+    {"id": "k4", "name": "K4"},
+    {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+    {"id": "mait", "name": "Mait"},
+    {"id": "marvin", "name": "Marvin"},
+    {"id": "oopsie", "name": "Oopsie"},
+    {"id": "pelta-x", "name": "Pelta X"},
+    {"id": "roboorikud", "name": "SLAM DUCK"},
+    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+    {"id": "warcrime", "name": "Warcrime"},
+    {"id": "wineeurope", "name": "WineEurope"}
+  ],
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 5,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "mait", "name": "Mait"},
+      {"id": "k4", "name": "K4"},
+      {"id": "harm", "name": "HARM"},
+      {"id": "brobot", "name": "Brobot"},
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "beat-diesel", "name": "Beat Diesel"},
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+      {"id": "roboorikud", "name": "SLAM DUCK"}
+    ],
+    "roundCount": 5,
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7],
+    "byes": [],
+    "robotStartingBaskets": {
+      "oopsie": ["magenta"],
+      "mait": ["blue"],
+      "k4": ["magenta"],
+      "harm": ["blue"],
+      "brobot": ["magenta"],
+      "pelta-x": ["blue"],
+      "sometimes-lose-always-win": ["blue"],
+      "plus-aura": ["magenta"],
+      "warcrime": ["blue"],
+      "beat-diesel": ["magenta"],
+      "marvin": ["magenta"],
+      "wineeurope": ["blue"],
+      "lebrobot-james": ["magenta"],
+      "roboorikud": ["blue"]
+    },
+    "hasEnded": false
+  }
 }

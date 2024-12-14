@@ -3,7 +3,7 @@
   "robots": [{"id": "k4", "name": "K4"}, {"id": "mait", "name": "Mait"}],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -74,8 +74,8 @@
       ],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [{"startTime": 1734187826613, "endTime": 1734187868813}]
     }

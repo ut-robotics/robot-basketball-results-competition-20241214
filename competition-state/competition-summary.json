@@ -1915,10 +1915,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 9,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1734186216589, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -2228,68 +2228,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 22,
+    "id": 23,
     "robots": [
-      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-      {"id": "brobot", "name": "Brobot"}
+      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+      {"id": "warcrime", "name": "Warcrime"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1734185917720, "isValid": true},
-            {"time": 1734185921821, "isValid": true},
-            {"time": 1734185935365, "isValid": true},
-            {"time": 1734185943949, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[], [{"time": 1734185952639}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60001,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1734185895517, "endTime": 1734185945469},
-          {"startTime": 1734185995157, "endTime": 1734186005206}
-        ]
-      },
-      {
-        "scores": [[{"time": 1734186060560, "isValid": true}], []],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60043,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 10,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1734186053286, "endTime": 1734186113329}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1734186216589, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.2, -0.15],
-      [-1.2, 0.15],
-      [0.18, -1.02],
-      [-0.18, 1.02],
-      [1.36, 0.4],
-      [-1.36, -0.4],
-      [0.9, 1.19],
-      [-0.9, -1.19],
-      [-1.13, 0.66],
-      [1.13, -0.66]
+      [0.51, 0.54],
+      [-0.51, -0.54],
+      [1.97, -1.43],
+      [-1.97, 1.43],
+      [1.52, 0.73],
+      [-1.52, -0.73],
+      [-1.12, 0.24],
+      [1.12, -0.24],
+      [0.77, -1.17],
+      [-0.77, 1.17]
     ]
   }
 }

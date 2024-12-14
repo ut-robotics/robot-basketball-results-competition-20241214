@@ -1,0 +1,34 @@
+{
+  "id": 10,
+  "robots": [
+    {"id": "wineeurope", "name": "WineEurope"},
+    {"id": "mait", "name": "Mait"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.79, -0.06],
+    [1.79, 0.06],
+    [-0.13, -1.42],
+    [0.13, 1.42],
+    [1.42, 0.81],
+    [-1.42, -0.81],
+    [-1.3, 1.1],
+    [1.3, -1.1],
+    [2.09, 0.75],
+    [-2.09, -0.75]
+  ]
+}

@@ -40,23 +40,23 @@
       {"id": "roboorikud", "name": "SLAM DUCK"}
     ],
     "roundCount": 5,
-    "gameIDs": [1, 2, 3, 4, 5, 6, 7],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
     "byes": [],
     "robotStartingBaskets": {
-      "oopsie": ["magenta"],
-      "mait": ["blue"],
-      "k4": ["magenta"],
-      "harm": ["blue"],
-      "brobot": ["magenta"],
-      "pelta-x": ["blue"],
-      "sometimes-lose-always-win": ["blue"],
-      "plus-aura": ["magenta"],
-      "warcrime": ["blue"],
-      "beat-diesel": ["magenta"],
-      "marvin": ["magenta"],
-      "wineeurope": ["blue"],
-      "lebrobot-james": ["magenta"],
-      "roboorikud": ["blue"]
+      "oopsie": ["magenta", "blue"],
+      "mait": ["blue", "blue"],
+      "k4": ["magenta", "blue"],
+      "harm": ["blue", "magenta"],
+      "brobot": ["magenta", "blue"],
+      "pelta-x": ["blue", "magenta"],
+      "sometimes-lose-always-win": ["blue", "magenta"],
+      "plus-aura": ["magenta", "blue"],
+      "warcrime": ["blue", "magenta"],
+      "beat-diesel": ["magenta", "magenta"],
+      "marvin": ["magenta", "blue"],
+      "wineeurope": ["blue", "magenta"],
+      "lebrobot-james": ["magenta", "blue"],
+      "roboorikud": ["blue", "magenta"]
     },
     "hasEnded": false
   }

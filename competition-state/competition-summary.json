@@ -2880,20 +2880,22 @@
               [
                 {"time": 1734190263095, "isValid": true},
                 {"time": 1734190266838, "isValid": true},
-                {"time": 1734190283803, "isValid": true}
+                {"time": 1734190283803, "isValid": true},
+                {"time": 1734190330612, "isValid": true},
+                {"time": 1734190339809, "isValid": true}
               ],
               [{"time": 1734190282663, "isValid": true}]
             ],
             "fouls": [[], [{"time": 1734190288946}]],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
+            "hasEnded": true,
             "isConfirmed": false,
-            "duration": 27948,
+            "duration": 60041,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1734190255973, "endTime": 1734190283912},
-              {"startTime": 1734190317501, "endTime": null}
+              {"startTime": 1734190317501, "endTime": 1734190349603}
             ]
           }
         ],
@@ -2952,20 +2954,22 @@
           [
             {"time": 1734190263095, "isValid": true},
             {"time": 1734190266838, "isValid": true},
-            {"time": 1734190283803, "isValid": true}
+            {"time": 1734190283803, "isValid": true},
+            {"time": 1734190330612, "isValid": true},
+            {"time": 1734190339809, "isValid": true}
           ],
           [{"time": 1734190282663, "isValid": true}]
         ],
         "fouls": [[], [{"time": 1734190288946}]],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
+        "hasEnded": true,
         "isConfirmed": false,
-        "duration": 27948,
+        "duration": 60041,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1734190255973, "endTime": 1734190283912},
-          {"startTime": 1734190317501, "endTime": null}
+          {"startTime": 1734190317501, "endTime": 1734190349603}
         ]
       }
     ],
